@@ -1,0 +1,150 @@
+body{
+	margin:0px;
+}
+
+.container {
+  width: 100%;
+  z-index: 300;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  font-family: 'tahoma';
+  font-size: 11px;
+  margin:0px;
+}
+
+/* message box header styles*/
+
+.msg-wgt-header {
+  background-color: lime;
+  border: 1px solid lime;
+  color: white;
+  height: 20px;
+}
+
+.msg-wgt-header a {
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+}
+
+/* message box body styles*/
+
+.msg-wgt-body {
+  height: 210px;
+  width: 150px;
+  overflow-y: scroll;
+}
+
+.msg-wgt-body table {
+  width: 100%;
+}
+
+.msg-row-container {
+  border-bottom: 1px solid lightgray;
+}
+
+.msg-row-container td {
+  border-bottom: 1px solid lightgray;
+  padding: 2px 0 2px 1px;
+  margin-left: -70px;
+}
+
+.msg-row {
+  width: 100%;
+  margin-left: -70px;
+}
+
+.message {
+  width: 230px;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+.sent{
+}
+
+#reciver_area{
+left:1px;
+}
+
+#sender_area{
+right:1px;
+}
+
+.msg {
+  width: 210px;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+#r_msg{
+}
+
+#s_msg{
+right:10px;
+}
+
+/* Message box footer styles*/
+
+.msg-wgt-footer {
+  height: 30px;
+}
+
+.msg-wgt-footer textarea {
+  width: 60%;
+  height: 30px;
+  font-family: 'tahoma';
+  font-size: 12px;
+  padding: 2px;
+  float: left;
+}
+
+#button{
+  float: right;
+  width: 10px;
+}
+
+.user-label {
+  font-size: 10px;
+}
+
+.msg-time {
+  font-size: 8px;
+  color: gray;
+  text-align: center;
+}
+
+#reciver_icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

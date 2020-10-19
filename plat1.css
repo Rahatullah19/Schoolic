@@ -1,0 +1,106 @@
+body{
+	background-position:top;		
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+	min-width: 600px;
+	}
+
+img{
+    image-orientation:from-image;
+}
+
+
+#plat_header{
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+	}
+	
+#plat_more{
+	
+}
+
+#u_plat, #s_plat{
+	border:solid;
+	border-color:#71FF71;
+	border-width:2px;
+	border-radius:3px 10px 3px 10px;
+	background-color:#FFFFFF;
+	opacity:0.93;
+	filter:alpha(opacity=90);
+}
+
+#u_info, #s_info{
+	margin:4px;
+	border:solid;
+	border-width:1px;
+	border-radius:0 0 0 10px;
+	border-color:#A4FFA4;
+}
+
+#post_info{
+	margin:7px;
+	border:solid;
+	border-width:1px;
+	border-radius:0 0 0 10px;
+	border-color:#A4FFA4;
+}
+
+
+#post_cont_dis{
+	white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;
+	font-family:"Times New Roman", Times, serif;
+}
+
+	
+#s_name{
+	margin-top:7px;
+	}
+	
+	
+#s_pic{
+	width:70px;
+	height:60px;
+	border-radius:5px;
+	}
+
+#s_pro1{
+	border-right:dotted;
+	border-right-color:#CCCCCC;
+	}
+	
+#s_pro2{
+	border-right:dotted;
+	border-right-color:#CCCCCC;
+	padding-left:10px;
+	}
+	
+#s_pro3{
+	padding-left:10px;
+	}
+
+
+#n_plat{
+	border:solid;
+	border-color:#71FF71;
+	border-width:2px;
+	border-radius:3px 10px 3px 10px;
+	background-color:#FFFFFF;
+	opacity:0.93;
+	filter:alpha(opacity=90);
+}
+
+#n_info{
+	margin:0 auto 5px auto;
+	border:solid;
+	border-width:1px;
+	border-radius:0 0 0 10px;
+	border-color:#A4FFA4;
+}
+
+

@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+	margin:0px;
+  font-size: 12px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #555; }
+  
+.logo{
+	width:38px;
+	height:36px;
+	margin-left:10px;
+	margin-right:20px;
+    margin-top:6px;
+	float:left;
+	transition: width 2s, height 2s, transform 2s;
+	opacity:3;
+	}
+
+.logo:hover{
+	width:46px;
+	height:45px;
+	transform:scale(1.2) rotate(350deg);
+	}
+	
+header{
+	height:50px;
+	margin-top:-25px;
+	}
+	
+header h1 em{
+	color:#0000FF;
+	font-family:Gabriola;
+	letter-spacing:1px;
+	text-shadow: 2px 2px 3px white;
+	}
+
+header h1 em:hover{
+	color:orange;
+	text-shadow: 2px 3px 4px white;
+	}
+	
+h1{
+	height:40px;
+	font-size:40px;
+	font-family:Garamond, "Franklin Gothic Medium", Impact, "Lucida Sans Unicode", "Monotype Corsiva", "Segoe Script";
+	color:#00FF40;
+	text-shadow: 2px 1px 2px #93EBFD;
+	}
+
+.hide {
+  display: none; }
+
+pre {
+  margin: 0 !important;
+  display: inline-block; }
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  background: none; }
+
+input[type=text],input[type=password],input[type=email],input[name=phone], input[type=file]{
+  padding: 6px 12px;
+  border-color:#CAE9FF;
+  border-width:1px;
+  border-radius: 2px;
+  }
+
+input, button {
+  height: 35px;
+  margin: 0;
+  padding: 6px 12px;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit; 
+}
+
+
+input, select {
+  border: 1px solid #CCC;
+  border-color:#97C2F9;
+  width: 250px; 
+}
+
+
+input:invalid { background: #fff url(invalid.png) no-repeat center right; }
+input:valid { background: #f3f8ed url(valid.png) no-repeat center right; }	
+
+::-webkit-input-placeholder {
+  color: #BBB; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #BBB;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  color: #BBB; }
+
+button {
+  color: #FFF;
+  width:100px;
+  background-color: #428BCA;
+  border: 1px solid #357EBD; }
+  
+
+  button:hover {
+    background-color: #3276B1;
+    border-color: #285E8E;
+    cursor: pointer; }
+
+#result {
+  margin-bottom: 100px; }
